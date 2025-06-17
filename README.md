@@ -1,6 +1,6 @@
 # 🌬️ Air Quality Analysis — Unmasking the Invisible Enemy!
 
-> **Breathe in.** Did you know that 9 out of 10 people worldwide breathe polluted air every day?  
+> **Breathe in.** Did you know that 9 out of 10 people worldwide breathe polluted air every day?
 > What if you could predict the next pollution spike, spot hidden patterns, and help make your city healthier—all with Python?
 
 ---
@@ -50,6 +50,7 @@
 ## ⚡ Quick Start
 
 1. **Clone & Set Up**
+
    ```bash
    git clone https://github.com/abubakarp789/Air_Quality_Analysis.git
    cd Air_Quality_Analysis
@@ -61,15 +62,18 @@
    pip install -r requirements.txt
    ```
 2. **Launch the Notebooks**
+
    ```bash
    jupyter notebook
    ```
+
    - Open `Air_Quality_Analysis_Enhanced.ipynb` for static visualizations
    - Open `Air_Quality_Analysis_Plotly.ipynb` for interactive dashboards
 
 ---
 
 ## 🛠️ Tech Stack & Tools
+
 - **Python 3.8+** (core language)
 - **Pandas, NumPy, SciPy** (data wrangling)
 - **Matplotlib, Seaborn, Plotly** (visualization)
@@ -80,6 +84,7 @@
 ---
 
 ## 📊 Project Workflow at a Glance
+
 1. **Data Loading & Exploration:**
    - 9,357 hourly records from the [UCI Air Quality Dataset](https://archive.ics.uci.edu/dataset/360/air+quality)
    - Initial checks for missing values, outliers, and data types
@@ -105,6 +110,7 @@
 ---
 
 ## 🏆 Results Snapshot
+
 - **Best classification model:** Random Forest & RNN (highest AUC and accuracy)
 - **Key correlations:** C6H6(GT) ↔ PT08.S2(NMHC) (r=0.99), CO(GT) ↔ C6H6(GT) (r=0.90)
 - **Impactful features:** Rush hour, weekend, season, lagged pollutant values
@@ -113,6 +119,7 @@
 ---
 
 ## 👩‍💻 For Learners & Practitioners
+
 - **Students:** Use this as a template for your own data science projects
 - **Researchers:** Extend the analysis, try new models, or apply to other datasets
 - **Data Scientists:** Benchmark your own pipelines or feature engineering ideas
@@ -121,13 +128,16 @@
 ---
 
 ## 👥 Team
+
 - Abu Bakar (Team Lead)
 - Raqib Hayat
 
 ## 📄 License
+
 MIT License — see [LICENSE](LICENSE)
 
 ## 🙏 Acknowledgments
+
 - Namal University, CS-352 Data Analysis & Visualization
 - UCI Machine Learning Repository
 - Open-source Python community
